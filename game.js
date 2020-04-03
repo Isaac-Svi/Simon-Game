@@ -46,7 +46,6 @@ function checkAnswer (currentLevel) {
 
 function nextSequence() {
   $('h1').text("Level " + (++level));
-  indexMatcher = 0;
   userClickedPattern = [];
 
   var randomNumber = Math.floor(Math.random() * 4),
